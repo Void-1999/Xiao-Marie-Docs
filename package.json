@@ -4,8 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "postinstall": "npx install-peerdeps webpack@4"
+    "start": "next start"
   },
   "dependencies": {
     "next": "latest",
