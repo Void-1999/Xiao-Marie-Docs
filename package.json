@@ -1,0 +1,16 @@
+{
+  "name": "Xiao-Marie-Docs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "nextra": "^1.0.0",
+    "nextra-theme-docs": "^1.0.0",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
