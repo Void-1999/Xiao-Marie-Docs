@@ -4,13 +4,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "npx install-peerdeps webpack@4"
   },
   "dependencies": {
     "next": "latest",
     "nextra": "^1.0.0",
     "nextra-theme-docs": "^1.0.0",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "@mdx-js/loader": "^1.6.22",
+    "webpack": "^4.46.0"
   }
 }
