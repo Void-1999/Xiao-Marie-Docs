@@ -5,24 +5,24 @@ The Grinder system utilizes a prefix (customizable, `!` by default) followed by 
 #### Grinder Management
 
 * **`!grinder add <@user>`**
-> : aliases: 
-> : `!g add <@user>`,
-> : `!gr a <@user>`, 
-> : `!grd + <@user>`
+**aliases:**
+: `!g add <@user>`,
+: `!gr a <@user>`, 
+: `!grd + <@user>`
 > Adds a new grinder, mentioned `<@user>` to the system.
 
 * **`!grinder check <@user>`** 
-> : aliases: 
-> : `!g check <@user>`, 
-> : `!gr c <@user>`, 
-> : `!grd check <@user>`
+> **aliases:** 
+> - `!g check <@user>`,
+> - `!gr c <@user>`,
+> - `!grd check <@user>`
 > Retrieves the current status and information for the grinder mentioned `<@user>`.
 
 * **`!grinder donoadd <@user> <amount>`** 
-> aliases: 
-> : `!g donoadd <@user> <amount>`,
-> : `!gr da <@user> <amount>`,
-> : `!grd donoadd <@user`
+> **aliases:**
+ - `!g donoadd <@user> <amount>`,
+ - `!gr da <@user> <amount>`,
+ - `!grd donoadd <@user`
 > Add grinder donations manually to the mentioned `<@user>`, the amount can be provided as `10m`, `100m` format.
 
 * **`!grinder donoremove <grinder_name> <user_mention>`** (aliases: `!g donoRemove <grinder_name> <user_mention>`, `!gr dr <grinder_name> <user_mention>`): Removes the user mentioned in `<user_mention>` from the donor list for the grinder named `<grinder_name>`.
