@@ -1,5 +1,9 @@
 {
   "aucs": "Auctions",
   "auditlogging": "Audit Logging",
-  "autogaws": "Automated User Giveaways"
+  "autogaws": "Automated User Giveaways",
+  "bday": "Birthday",
+  "goal": "Goal Progress",
+  "staffpoints": "Staff Points",
+  "rc": "Auto Role Colour Change"
 }

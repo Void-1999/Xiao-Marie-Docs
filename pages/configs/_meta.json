@@ -1,5 +1,6 @@
 {
-  "autogawsconfig": "Automated User Giveaways Configuration",
-  "generalconfig": "General Configuration",
-  "grinderconfig": "Grinder Configuration"
+  "generalconfig": "Setup Bot Configuration",
+  "grinderconfig": "Setup Grinder (& Other) Configuration",
+  "autogawsconfig": "Setup Automated User Giveaways Configuration",
+  "clownconfig": "Setup Clown Board"
 }

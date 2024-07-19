@@ -1,5 +1,15 @@
 {
   "afks": "AFK",
   "ar": "Auto Reacts",
-  "grcmds": "Grinder Commands"
+  "cal": "Calculator",
+  "clown": "Clown",
+  "freeze": "Freeze/Unfreeze Nick",
+  "gifs": "Gifs",
+  "grcmds": "Grinder Commands",
+  "snipe": "Snipes",
+  "sticky": "Sticky",
+  "subs": "Rumble Subscriptions",
+  "triggers": "Triggers",
+  "highlights": "Highlights",
+  "perms": "Manage Channel Permissions"
 }

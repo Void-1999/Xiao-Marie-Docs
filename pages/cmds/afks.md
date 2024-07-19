@@ -4,12 +4,14 @@
 
 The Afk feature allows users to set a custom away message.
 
-### Requirements
+## Commands
 
-Provide the `.voidthefool.` with the role ID that needs access.
+### Afk
 
-### Commands
+**Description:** This command sets your away message.
 
-- ```!afk <message>```  
-  Example: ```!afk you made me rage quit, bye.```  
-  This command sets your away message.
+**Command:** `!afk <message>`
+
+**Example:**
+- **`!afk`** `you made me rage quit, bye.`
+![afk](../../afk.png)

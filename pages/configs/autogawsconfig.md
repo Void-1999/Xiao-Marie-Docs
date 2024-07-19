@@ -1,4 +1,4 @@
-## Giveaway Configurations
+## Setup Giveaway Configurations
 
 ### Overview
 

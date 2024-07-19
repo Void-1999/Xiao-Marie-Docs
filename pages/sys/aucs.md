@@ -2,22 +2,42 @@
 
 ### Overview
 
-The Auction System allows users to create, manage, and participate in auctions.
+The Auction System allows users to manage and conduct auctions within the server.
 
-### Requirements
+## Commands
 
-Must have the permissions to kick a member.
+### Auction Add
 
-### Auction System Commands
+**Description:** This command sets up an auction with detailed information. After filling out the required options, you'll be prompted to confirm the details. If everything is correct, confirm the prompt to save the auction, and you will receive its ID.
 
-- ```/auction add```  
-  This command has many options to fill out information regarding the auction. Once the command is used, a prompt will appear. Click "yes" if all details are correct. The auction will then be saved, and an ID will be provided.
+**Command:** ```/auction add```
 
-- ```/auction check <auction-id>```  
-  This command checks the status, information, and details of a saved auction. You need the auction ID to check a specific auction.
+**Example:**
+- **`/auction add`**: Follow the prompts to fill out auction information and confirm.
 
-- ```/auction list```  
-  This command lists all the auctions ever saved and done in the server along with their IDs.
+### Auction Check
 
-- ```/auction start <auction-id>```  
-  This command starts a previously saved auction. You need the auction ID to start it.
+**Description:** This command checks the status, information, and details of a saved auction using its ID.
+
+**Command:** ```/auction check```
+
+**Example:**
+- **`/auction check`**: `auction-id`
+
+### Auction List
+
+**Description:** This command lists all the auctions ever saved and conducted in the server along with their IDs.
+
+**Command:** ```/auction list```
+
+**Example:**
+- **`/auction list`**
+
+### Auction Start
+
+**Description:** This command starts a previously saved auction using its ID.
+
+**Command:** ```/auction start```
+
+**Example:**
+- **`/auction start`**: `auction-id`
