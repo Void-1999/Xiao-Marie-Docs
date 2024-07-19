@@ -1,8 +1,8 @@
-import { Callout } from 'nextra/components'
-
 ---
 title: Grinders Command Usage
 ---
+
+import { Callout } from 'nextra/components'
 
 ## Grinders Command Usage
 
@@ -34,7 +34,6 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 - `!grinder add @Tea Lover`
 ![grinder-add](../../grinder-add.png)
 
-
 ### Check Grinder
 
 **Description:** Retrieves the current status and information for the grinder mentioned `<@user>`.
@@ -52,7 +51,6 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 **Example:**
 - `!grinder check @Coffe Guy`
 ![grinder-check](../../grinder-check.png)
-
 
 ### Add Grinder Donation
 
@@ -73,7 +71,6 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 - `!grinder donoadd @Rumbler 50m`
 ![grinder-donoadd](../../grinder-donoadd.png)
 
-
 ### Remove Grinder Donation
 
 **Description:** Removes a donation for a grinder.
@@ -93,7 +90,6 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 - `!grinder donoremove @Parry Hotter 60m`
 ![grinder-donoremove](../../grinder-donoremove.png)
 
-
 ### List Grinders
 
 **Description:** Lists all grinders.
@@ -111,7 +107,6 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 **Example:**
 - `!grinder list`
 ![grinder-list](../../grinder-list.png)
-
 
 ### Remove Grinder from Database
 
@@ -132,7 +127,6 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 - `!grinder remove @Onion`
 ![grinder-remove](../../grinder-remove.png)
 
-
 ### Check Retired Grinders
 
 **Description:** Checks details of retired grinders.
@@ -151,7 +145,6 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 - `!grinder checkretired @Gambling Addict`
 ![grinder-checkretired](../../grinder-checkretired.png)
 
-
 ### Demote Grinder
 
 **Description:** Demotes the grinder named `<@user>` to a lower tier.
@@ -166,14 +159,13 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 **Args:**
 - `@user`: The user mention to be demoted.
 - `<tier_name>`: The name of the tier you want to demote to.
+
 <Callout type="info" emoji="ℹ️">
   The tier name is Case Sensitive.
 </Callout>
 
-
 **Example:**
 - `!grinder demote @Carrot Xiao Junior Gridners`
-
 
 ### Promote Grinder
 
@@ -189,14 +181,13 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 **Args:**
 - `@user`: The user mention to be promoted.
 - `<tier_name>`: The name of the tier you want to demote to.
+
 <Callout type="info" emoji="ℹ️">
   The tier name is Case Sensitive.
 </Callout>
 
-
 **Example:**
 - `!grinder promote @Capsicum Xiao High Grinders`
-
 
 ### Break Management
 
@@ -217,8 +208,7 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 
 **Example:**
 - `!grinder break start @AFK 10`
-![grinder-break](../../grinder-break-start.png)
-
+![grinder-break-start](../../grinder-break-start.png)
 
 ### Check Break for a grinder
 
@@ -238,7 +228,6 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 - `!grinder break check @AFK`
 ![grinder-break-check](../../grinder-break-check.png)
 
-
 ### End Break for a grinder (manually)
 
 **Description:** Forces an end to the ongoing break for the grinder mentioned `<@user>`.
@@ -257,7 +246,6 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 - `!grinder break end @AFK`
 ![grinder-br-end](../../grinder-break-end.png)
 
-
 ### List Grinder Breaks
 
 **Description:** Lists all grinders currently on a break.
@@ -274,7 +262,6 @@ The primary command for grinders is **`grinder`**, but it can also be called usi
 **Example:**
 - `!grinder break list`
 ![grinder-break-list](../../grinder-break-list.png)
-
 
 ## Note
 
