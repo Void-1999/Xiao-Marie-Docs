@@ -22,4 +22,4 @@ The Freezenicks feature allows administrators to freeze and unfreeze user nickna
 **Command:** `!unfreezenick <user>`
 
 **Example:**
-- **`{prefix}unfreezenick @.voidthefool.`**
+- **`!unfreezenick @.voidthefool.`**

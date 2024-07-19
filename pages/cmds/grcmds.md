@@ -2,7 +2,7 @@
 title: Grinders Command Usage
 ---
 
-import { Callout } from 'nextra/components'
+import { Callout } from 'nextra-theme-docs'
 
 ## Grinders Command Usage
 

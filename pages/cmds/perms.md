@@ -3,7 +3,7 @@ title: Manage Channel Permissions
 description: Manage permissions of channels for roles or users
 ---
 
-# `/manage-channel-perms`
+## Manage Channel Permissions
 
 ## Description
 
